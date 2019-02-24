@@ -2,8 +2,8 @@
 
 const { heroes: container } = require('./index').containers;
 
-async function getHeroes(context) {
-  let { req, res } = context;
+async function getHeroes(context, req, res) {
+  // let { req, res } = context;
   try {
     const { result: heroes } = await container.items.readAll().toArray();
     res.status(200).json(heroes);

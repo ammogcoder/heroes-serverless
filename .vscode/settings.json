@@ -8,5 +8,9 @@
     "obj": true,
     "bin": true
   },
-  "debug.internalConsoleOptions": "neverOpen"
+  "debug.internalConsoleOptions": "neverOpen",
+
+  "workbench.colorCustomizations": {
+    "titleBar.activeBackground": "#0000f3"
+  }
 }
