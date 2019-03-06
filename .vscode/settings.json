@@ -11,6 +11,10 @@
   "debug.internalConsoleOptions": "neverOpen",
 
   "workbench.colorCustomizations": {
-    "titleBar.activeBackground": "#0000f3"
+    "activityBar.background": "#3399ff",
+    "activityBar.foreground": "#15202b",
+    "activityBar.inactiveForeground": "#1d3e60",
+    "statusBar.background": "#007fff",
+    "statusBar.foreground": "#e7e7e7"
   }
 }
