@@ -12,5 +12,5 @@ module.exports = async function(context, req, res) {
   // Alternatively I could have passed in the req and res
   // await getHeroes(context.req, context.res);
   // But decided to pass context so I can use context.log, too
-  await getHeroes(context, req, res);
+  await getHeroes(context);
 };
